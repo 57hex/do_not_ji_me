@@ -1,4 +1,8 @@
 # INTRODUCTION nǐ kěyǐ búyào jíwǒ mā??
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/contains-cat-gifs.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/made-with-vue.svg)](https://forthebadge.com)
 ### bùxíng, tōngcháng huìbèi zhèyàng huífù ba.
 var nǐbùjímā = 'nǐ kěyǐ búyào jíwǒ mā'
 
