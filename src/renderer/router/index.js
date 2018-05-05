@@ -8,11 +8,7 @@ export default new Router({
     {
       path: '/',
       name: 'landing-page',
-      component: require('@/components/login').default
+      component: require('@/components/main').default
     },
-    {
-      path: '*',
-      redirect: '/'
-    }
   ]
 })

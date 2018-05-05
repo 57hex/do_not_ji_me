@@ -25,7 +25,6 @@
 
 <script>
   import SystemInformation from './LandingPage/SystemInformation'
-  let plurkClient = require('plurk').PlurkClient
   export default {
     name: 'landing-page',
     components: { SystemInformation },
