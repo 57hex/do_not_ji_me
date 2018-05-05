@@ -1,6 +1,20 @@
-# vplu
+# INTRODUCTION nǐ kěyǐ búyào jíwǒ mā??
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/contains-cat-gifs.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/made-with-vue.svg)](https://forthebadge.com)
+### bùxíng, tōngcháng huìbèi zhèyàng huífù ba.
+var nǐbùjímā = 'nǐ kěyǐ búyào jíwǒ mā'
 
-> An electron-vue project
+## wǒmen de jìhuà
+* wǒmen yīnwèi zài táiwān yǒu hěnduō gōngsī yīnwèi yòng JAVA bèigào, suǒyǐ wǒmen xiwàng xiě yīge no-JAVA project.
+* `nǐbùjímā` shì yìkuǎn qīngsōng de kǎpiàn yóuxì.
+ * yǒu liǎngge `zhènyíng`.
+ * yìge shì `gōngsī`, yìge shì `jiagowen(J**A)`
+ * ránhòu wǒmen huì fēnxī gōngsī shǐyòng chéngshì yǔyán de fāngfǎ, lái juédìng gōngsī de sùzhí.
+ * dìngyì chūshǐzhīchǎn, měicì d sùsòng dōuhuì yǐngxiǎng dōu huì shòudào bōdòng.
+ * qianbei kouwandehua youxi jiu jieshule.
+* qita daibuqi.
 
 #### Build Setup
 
