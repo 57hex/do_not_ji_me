@@ -1,18 +1,13 @@
 <template>
   <div class="body">
     <b-navbar class="nav-red" toggleable>
-      <b-navbar-toggle target="nav_dropdown_collapse"></b-navbar-toggle>
-      <b-collapse is-nav id="nav_dropdown_collapse">
         <b-navbar-nav>
-          <b-nav-item href="#">Home</b-nav-item>
-          <b-nav-item href="#">Link</b-nav-item>
-          <b-nav-item href="#" @click="loginOut">登出</b-nav-item>
+          <b-nav-item right href="#" @click="loginOut">登出</b-nav-item>
         </b-navbar-nav>
-      </b-collapse>
     </b-navbar>
     <b-container>
       <b-row class="mt-5">
-        <b-col sm="6"><b-jumbotron class="nav-red btn-click"><h1 class="text-center">電腦對戰</h1></b-jumbotron>
+        <b-col sm="6"><b-jumbotron class="nav-red btn-click" @click="battleWithCom"><h1 class="text-center">電腦對戰</h1></b-jumbotron>
         </b-col>
         <b-col sm="6"><b-jumbotron class="nav-red btn-click"><h1 class="text-center">玩家對戰</h1></b-jumbotron>
       </b-col>
@@ -22,20 +17,27 @@
 </template>
 
 <script>
+  let data = new Date()
   export default {
     name: "game-main",
     data () {
       return {
-        signedIn: true
+        view: 'main'
       }
     },
     methods: {
       loginOut() {
         let vm = this
-        vm.signedIn = false
-        vm.$emit('updateLogin', vm.signedIn)
+        vm.view = 'login'
+        vm.$emit('updateViewStatus', vm.view)
+      },
+      battleWithCom () {
+        let vm = this
+        vm.view = 'battle'
+        vm.$emit('updateViewStatus', vm.view)
       }
-    }
+    },
+    watched: {}
   }
 </script>
 <style scoped>

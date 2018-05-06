@@ -40,15 +40,14 @@
     props: ['test'],
     data() {
       return {
-        test: 1,
-        signedIn: false
+        view: 'login'
       }
     },
     methods: {
       login() {
         let vm = this
-        vm.signedIn = true
-        vm.$emit('updateLogin', vm.signedIn)
+        vm.view = 'main'
+        vm.$emit('updateViewStatus', vm.view)
       }
     }
   }
